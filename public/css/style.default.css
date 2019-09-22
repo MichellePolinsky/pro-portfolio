@@ -1,9 +1,9 @@
+
+  
 /* 
 ========================================= 
 ========================================= 
-
 Bootstrapious Boilerplate Template
-
 ========================================= 
 ========================================= */
 /*
@@ -216,7 +216,13 @@ SERVICES SECTION
   color: #262626;
   margin-bottom: 10px;
 }
-
+.skills{
+  list-style: none;
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+ font-size: 2rem;
+}
 /*
 *
 =====================
@@ -351,11 +357,9 @@ footer {
 }
 
 /*
-
 =====================
 STYLE SWITCHER FOR DEMO
 =====================
-
 */
 #style-switch-button {
   position: fixed;
@@ -2194,4 +2198,4 @@ code {
     margin-right: 15px;
     margin-left: 15px;
   }
-}
+
