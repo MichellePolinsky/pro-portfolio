@@ -5,7 +5,7 @@
     "start": "browser-sync start --server public --files public",
     "deploy": "netlify deploy --prod --dir=public",
     "setup-deploy": "app-app --deploy && yarn deploy",
-    "postdeploy": "echo 'Your site was deployed to  (https://MichellePolinsky.netlify.com) '"
+    "postdeploy": "echo 'Your site was deployed to pro-portfolio-michellepolinsky.netlify.com'"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
@@ -18,5 +18,5 @@
     "stylelint": "^11.0.0",
     "stylelint-config-standard": "^19.0.0"
   },
-  "homepage": " (https://MichellePolinsky.netlify.com) "
+  "homepage": "pro-portfolio-michellepolinsky.netlify.com"
 }
