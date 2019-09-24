@@ -97,6 +97,14 @@ p {
   display: flex;
   justify-content: center;
   padding-top: 5rem;
+}
+
+
+.beach-pic{
+  display: flex;
+  justify-content: center;
+  /* padding-top: 5rem; */
+  Padding-left: 2rem;
 
 }
 
